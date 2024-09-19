@@ -4,13 +4,18 @@ Description About the Project:
 
 The Institute Course Data Scraper v1.0 is a Python-based web scraping application specifically developed to collect and organize data about educational institutions affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU) for the academic session 2024-25. Using Selenium for browser automation, this project efficiently retrieves detailed information regarding institutes, including their names, course offerings, branches, and intake capacities.
 
+
 Features:
 
-1.	Targeted Data Retrieval: The scraper dynamically constructs URLs based on a comprehensive list of institute codes, allowing it to access specific pages dedicated to each institution without manual intervention.
-2.	Course Information Extraction: By navigating to the "Courses" tab for each institute, the application extracts vital details from an HTML table, including course names, branch names, and respective intake capacities.
-3.	Data Structuring: The extracted data is organized in a pandas DataFrame, facilitating easy manipulation and analysis. Unique course names are captured and structured under distinct headers, ensuring clarity and accessibility.
-4.	Excel Export: The final dataset is saved as an Excel file, enabling straightforward access for analysis, reporting, or further processing.
-5.	Scalable Design: The architecture of the code allows for easy addition of more institute codes in the future, making it adaptable to changing requirements as more institutions or courses become relevant.
+1.Targeted Data Retrieval: The scraper dynamically constructs URLs based on a comprehensive list of institute codes, allowing it to access specific pages dedicated to each institution without manual intervention.
+
+2.Course Information Extraction: By navigating to the "Courses" tab for each institute, the application extracts vital details from an HTML table, including course names, branch names, and respective intake capacities.
+
+3.Data Structuring: The extracted data is organized in a pandas DataFrame, facilitating easy manipulation and analysis. Unique course names are captured and structured under distinct headers, ensuring clarity and accessibility.
+
+4.Excel Export: The final dataset is saved as an Excel file, enabling straightforward access for analysis, reporting, or further processing.
+
+5.Scalable Design: The architecture of the code allows for easy addition of more institute codes in the future, making it adaptable to changing requirements as more institutions or courses become relevant.
 
 
 This project is particularly useful for educational administrators, researchers, and prospective students looking to gather comprehensive insights into the course offerings available for the 2024-25 academic session at various institutes affiliated with AKTU. By automating the data collection process, it significantly reduces the time and effort required to compile this information manually.
